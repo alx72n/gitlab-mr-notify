@@ -1,25 +1,6 @@
 # /usr/bin/env python
 
-"""Notify about GitLab open merge requests to Mattermost channel.
-
-Dependencies:
-
-- Python modules:
-  - jinja2
-  - pydantic
-  - python-dotenv
-  - requests
-- Environment variables:
-  - GITLAB_BASE_URL
-  - GITLAB_PRIVATE_TOKEN
-  - GITLAB_AUTHOR_USERNAME
-  - GITLAB_AUTHOR_ID
-  - MATTERMOST_POSTS_API
-  - MATTERMOST_TOKEN
-  - MATTERMOST_CHANNEL
-  - MATTERMOST_CHANNEL_ID
-- Environment file `.env` with environment variables listed above must exist.
-"""
+"""Notify about GitLab open merge requests to Mattermost channel."""
 
 from typing import Final
 from typing import Any
