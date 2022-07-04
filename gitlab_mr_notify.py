@@ -39,6 +39,7 @@ def open_merge_requests(author_id: int) -> str:
         "author_id": str(author_id),
         "state": "opened",
         "sort": "asc",
+        "wip": "no",
         "per_page": "100",
     }
     headers: Final[dict[str, str]] = {
