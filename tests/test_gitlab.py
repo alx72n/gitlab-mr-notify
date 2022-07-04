@@ -14,8 +14,8 @@ def test_open_merge_requests_env_variables() -> None:
         Given GitLab environment variables are set
             And GitLab `author_id` is provided
         When I run open_merge_requests() function
-        Then a list of the last 100 open merge requests of the `author_id` is
-            returned.
+        Then A list of the last 100 open merge requests not in a wip status is
+            printed to the stdout
     """
     # TODO Implement test test_open_merge_requests_env_variables().
 
@@ -27,7 +27,7 @@ def test_open_merge_requests_env_file() -> None:
         Given GitLab environment variables are set via environment file
             And GitLab `author_id` is provided
         When I run open_merge_requests() function
-        Then a list of the last 100 open merge requests of the `author_id` is
-            returned.
+        Then A list of the last 100 open merge requests not in a wip status is
+            printed to the stdout
     """
     # TODO Implement test test_open_merge_requests_env_file().
