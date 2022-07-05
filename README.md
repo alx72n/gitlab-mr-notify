@@ -5,6 +5,7 @@ open Merge Requests in GitLab.
 
 ## Requirements
 
+- Python 3.10.
 - Python modules:
   - jinja2
   - pydantic
