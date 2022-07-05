@@ -57,3 +57,9 @@ Environment variables:
         </td>
     </tr>
 </table>
+
+## How to use
+
+- Install requirements.
+- Setup environment variables or create environment file.
+- Run script `python gitlab_mr_notify.py`.
